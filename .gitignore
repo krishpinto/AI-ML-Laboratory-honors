@@ -4,3 +4,10 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# creditcard.csv is 144 MB, over GitHub's hard 100 MB per-file limit.
+# The 66 MB creditcard.csv.zip IS tracked — unzip it to regenerate this file.
+creditcard.csv
+
+# Keras downloads these to ~/.keras on first run; no need to track.
+practical4_outputs/
