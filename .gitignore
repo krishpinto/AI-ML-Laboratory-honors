@@ -11,3 +11,9 @@ creditcard.csv
 
 # Keras downloads these to ~/.keras on first run; no need to track.
 practical4_outputs/
+
+# Local-only Claude Code context — deliberately untracked, keep off GitHub.
+CLAUDE.md
+MIGRATION.md
+chat-transcripts/
+.claude/
